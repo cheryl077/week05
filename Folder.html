@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Form</title>
+	<link rel="icon" type="image/png" href="gambar/favicon-32x32.png">
+</head>
+<body>
+
+	<h1>CV</h1>	
+	<img src="kelinci.jpg" width="300" height="400" alt="Foto Kelinci">
+
+	<table border="1">
+		<tr><td colspan="2" style="text-align: center; font-weight: bold;">Data diri</td></tr>
+		<tr><td>Nama</td><td>Cheryl</td></tr>
+		<tr><td>NRP</td><td>225170714</td></tr> 
+		<tr><td>Alamat</td><td>Surabaya</td></tr>
+		<tr><td>Tgl Lahir</td><td>07/07/2000</td></tr>
+	</table>
+
+	<br>
+
+	<!-- Action diubah ke Folder1.html -->
+	<form action="Folder2.html" method="GET">
+		<fieldset id="data-diri">
+			<legend>Keahlian</legend>
+			<label>Bisa Apa Aja</label><br>
+			<fieldset id="kemampuan">
+				<input type="checkbox" name="pakar" value="PS" id="ps"> <label for="ps">Bisa photoshop</label><br>
+				<input type="checkbox" name="pakar" value="AI" id="ai"> <label for="ai">Mahir AI yg Adobe itu</label><br>
+			</fieldset>
+		</fieldset> <!-- Penutup fieldset yang sebelumnya hilang -->
+		
+		<br>
+		<input type="submit" value="Kirim">
+	</form>
+
+</body>
+</html>
