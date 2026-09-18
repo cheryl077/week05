@@ -1,40 +1,58 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Menu Form</title>
-	<link rel="icon" type="image/png" href="gambar/favicon-32x32.png">
+	<title>Menu</title>
+	<!-- 1. Menambahkan Favicon (Ikon di Tab Browser) -->
+	<link rel-"icon" type="image/png" href-"gambar/favicon-32x32.png">
 </head>
-<body>
 
-	<h1>CV</h1>	
-	<img src="kelinci.jpg" width="300" height="400" alt="Foto Kelinci">
+<h1>DATA DIRI</H1>
+<fieldset id="gender">
+<form action="terima.html">
+<label for="nama">Nama</label>
+<input type="text" id="nama" name="patricia"><br>
 
-	<table border="1">
-		<tr><td colspan="2" style="text-align: center; font-weight: bold;">Data diri</td></tr>
-		<tr><td>Nama</td><td>Cheryl</td></tr>
-		<tr><td>NRP</td><td>225170714</td></tr> 
-		<tr><td>Alamat</td><td>Surabaya</td></tr>
-		<tr><td>Tgl Lahir</td><td>07/07/2000</td></tr>
-	</table>
+<label for="nama panggilan">Nama Panggilan</label>
+<input type="text" id="nama panggilan" name="panggilan"><br>
 
-	<br>
+<label for="ultah">Tanggal Lahir</label>
+<input type="date" id="ultah" name="ultah"><br>
 
-	<!-- Action diubah ke Folder1.html -->
-	<form action="Folder2.html" method="GET">
-		<fieldset id="data-diri">
-			<legend>Keahlian</legend>
-			<label>Bisa Apa Aja</label><br>
-			<fieldset id="kemampuan">
-				<input type="checkbox" name="pakar" value="PS" id="ps"> <label for="ps">Bisa photoshop</label><br>
-				<input type="checkbox" name="pakar" value="AI" id="ai"> <label for="ai">Mahir AI yg Adobe itu</label><br>
-			</fieldset>
-		</fieldset> <!-- Penutup fieldset yang sebelumnya hilang -->
-		
-		<br>
-		<input type="submit" value="Kirim">
-	</form>
+<label for="nrp">Noreg Mahasiswa</label>
+<input type="text" id="nrp" name="225170713"><br>
 
-</body>
-</html>
+<label for="pwd">Password</label>
+<input type="password" id="pwd" name="pwd"><br>
+
+<label for="surel">Alamat Email</label>
+<input type="email" id="surel" name="surel"><br>
+
+<label for="telp">Nomer HP</label>
+<input type="telp" id="telp" name="no hp"><br>
+</fieldset>
+
+<br><br>
+<label for="gender">Jenis Kelamin</label>
+<fieldset id="gender">
+	<input type="radio"name="gender" value="L">Cowok</radio><br>
+	<input type="radio"name="gender" value="P">Cewek</radio><br>
+	<input type="radio"name="gender" value="X" checked>Rahasia</radio><br>
+</fieldset>
+
+<label for="kemampuan">Kelebihan</label>
+<fieldset id="kemampuan">
+	<input type="checkbox" name="pakar" value="PS">Menggunakan Photoshop<br>
+	<input type="checkbox" name="pakar" value="PS">Menggunakan Illustrator<br>
+	<input type="checkbox" name="pakar" value="PS">Menggunakan Indesign<br>
+</fieldset>
+<br><br>
+
+<input type="submit">
+</form>
+
+
+
+
+required placeholder="Patricia Gabrielle"><br>
