@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Menu Form</title>
+	<!-- Perbaikan tanda '=' pada rel dan href -->
+	<link rel="icon" type="image/png" href="gambar/favicon-32x32.png">
+</head>
+<body>
+
+	<h1>Data Diri</h1>
+
+	<form action="pindex.html" method="GET">
+		<fieldset id="data-diri">
+			<legend>Data Diri</legend>
+			<label for="nama">Nama</label>
+			<input type="text" id="nama" name="nama" required placeholder="Jhon Doe"><br>
+			
+			<label for="nrp">NRP</label>
+			<input type="text" id="nrp" name="nrp" required placeholder="12345678"><br>
+			
+			<label for="pwd">Password</label>
+			<input type="password" id="pwd" name="pwd" required><br>
+			
+			<label for="surel">Alamat Email</label>
+			<input type="email" id="surel" name="surel" required><br>
+			
+			<label for="ultah">Tgl Lahir</label>
+			<input type="date" id="ultah" name="ultah"><br>
+			
+			<label for="telp">No HP</label>
+			<input type="tel" id="telp" name="nohp" required placeholder="+62xxxxxxx"><br>
+		</fieldset>
+		
+		<br><br>
+		<label>Jenis Kelamin</label>
+		<fieldset id="gender">
+			<input type="radio" name="gender" value="L" id="cowok"> <label for="cowok">Cowok</label><br>
+			<input type="radio" name="gender" value="P" id="cewek"> <label for="cewek">Cewek</label><br>
+			<input type="radio" name="gender" value="X" id="terserah" checked> <label for="terserah">Terserah</label><br>
+		</fieldset>
+		
+		<label>Bisa Apa Aja</label>
+		<fieldset id="kemampuan">
+			<input type="checkbox" name="pakar" value="PS" id="ps"> <label for="ps">Bisa photoshop</label><br>
+			<input type="checkbox" name="pakar" value="AI" id="ai"> <label for="ai">Mahir AI yg Adobe itu</label><br>
+		</fieldset>
+		
+		<br><br>
+		<input type="submit" value="Kirim">
+	</form>
+
+</body>
+</html>
