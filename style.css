@@ -4,8 +4,54 @@ body {
 
 h1 {
     color: #8EA66B;
+    text-align: center;
+    font-size: 36pt;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-style: italic;
 }
 
 p {
     color: #4F5B2A;
+    background-color: #FFF9D6;
+    padding: 0.6em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    text-align: left;
+    border: 3px dashed black;
+    width: 50%;
+    min-width: 40em;
+}
+
+p.deskripsi {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    text-align: center;
+    min-width: unset;
+    margin-bottom: 1.5em;
+}
+
+.kanan { text-align: right; }
+.kiri { text-align: left; }
+.tengah { text-align: center; }
+
+ul.menu-puisi {
+    display: inline-block;
+    text-align: left;
+}
+
+ul.menu-puisi li {
+    margin: 8px 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8EA66B;
+    text-decoration: underline;
 }
