@@ -53,5 +53,22 @@ a {
 
 a:hover {
     color: #8EA66B;
-    text-decoration: underline;
+}
+
+.p1 {
+    background-color: #EBF5FB;
+    color: #1B4F72;
+    border-color: #2980B9;
+}
+
+.p2 {
+    background-color: #E8F8F5;
+    color: #114B3E;
+    border-color: #16A085;
+}
+
+.p3 {
+    background-color: #FEF9E7;
+    color: #7D6608;
+    border-color: #D4AC0D;
 }
